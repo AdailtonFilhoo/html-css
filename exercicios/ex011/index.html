@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Midias HTML</h1>
+    <p>Vamos aprender como utilizar algumas midias em nossos sites.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo Áudio</h1>
+
+    <audio src="midia/Illusions - Anno Domini Beats.mp3" controls ></audio>
+    <!--MP3 OGG WAV-->
+    <source src="midia/Illusions - Anno Domini Beats.mp3" type="audio/mpeg">
+    
+    <p>Caso seu navegador não consiga reproduzir o audio <a href="midia/Illusions - Anno Domini Beats.mp3" download="Illusions - Anno Domini Beats.mp3" type="audio/mpeg" target="_blank">clique aqui</a> para fazer o download.</p>
+    
+
+
+</body>
+</html>
