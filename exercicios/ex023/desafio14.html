@@ -25,28 +25,32 @@
             padding: 5px;
         }
 
-        tbody > th:nth-child(2n) {
+        .cabeça {
             background-color: lightslategray;
         }
+
+        
+
+        
     </style>
 </head>
 <body>
     <table>
         <thead>
-            <tr>
-                <th rowspan="2">Área</th>
-                <th rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+            <tr class="cabeça">
+                <th rowspan="2" scope="colgroup">Área</th>
+                <th rowspan="2" scope="colgroup">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="colgroup">Média</th>
             </tr>
-            <tr>
+            <tr class="cabeça">
                 <th>Nota 1</th>
                 <th>Nota 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" >Exatas</th>
                 <td>Mátematica</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -71,7 +75,7 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr>
+            <tr class="cabeça">
                 <th colspan="4" class="medias">Médias de Exatas</th>
                 <td>0.0</td>
             </tr>
@@ -88,7 +92,7 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr>
+            <tr class="cabeça">
                 <th colspan="4" class="medias">Médias de Humanas</th>
                 <td>0.0</td>
             </tr>
